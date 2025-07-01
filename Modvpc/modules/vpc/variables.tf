@@ -1,19 +1,16 @@
-variable "env" {
-  type = string
-  description = "Envi name :"
-}
 
 variable "vpc_cidr" {
   type = string
-  description = "CIDR block for the VPC : "
+  description = "CIDR block for VPC : "
 }
 
 variable "public_subnet_cidr" {
-  type = string
-  description = "CIDR block for the public subnet : "
+ type = string
+ description = " CIDR Block for public subnet : "
 }
 
 variable "availability_zone" {
-  type = string
-  description = "AZ to launch the subnet in : "
+ type = string
+ description = "Availability zone to launch subnet in : "
 }
+
